@@ -30,3 +30,6 @@ yaml_title = "title: " + raw_input('Enter title here with no special chars: ') +
 yaml_categories = "categories: " + category
 yaml_author = "author: " + author
 yaml_image = "image: " + image
+
+file = open(filename,'a')
+file.close()
